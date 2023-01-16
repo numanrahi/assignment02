@@ -38,6 +38,8 @@ body{
     padding-top: 100px;
     margin-left: 200px;
     color: #131313;
+    font-weight: 700;
+    font-size: 45px;
 }
 
 ul{
@@ -196,4 +198,45 @@ p{
 }
 .activity div:hover{
     transform: rotate(60deg);
+}
+
+/* sponspors section styles */
+
+.sponspor-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+.sponspor-description{
+    margin-left: 450px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.sponspor-img{
+    margin-bottom: 130px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-evenly;
+}
+.sponspor-img img{
+    width: 166.76px;
+    height: 50px;
+}
+
+/* footer section styles */
+
+.footer-section{
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    width: 620px;
+    height: 23px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1440px;
+    height: 80px;
+    padding-top: 50px;
 }
