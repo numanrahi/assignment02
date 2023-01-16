@@ -281,3 +281,51 @@ button{
     color: #FFFFFF;
     border-radius: 10px;
 }
+
+
+
+/* responsive the website  */
+
+
+/* mobile device  */
+
+@media screen and (max-width:576px) {
+    body{
+        max-width: 100%;
+    }
+    .header{
+        display: grid;
+        background-color: rgba(255, 144, 14, 0.1);
+        margin-bottom: 30px;
+    }
+    nav{
+        margin-left: 0;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    ul{
+        margin-left: 0;
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+    .first-heading{
+        padding-top: 20px;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .main-header{
+        font-size: 4vw;
+        margin-top: 0;
+    }
+    .main-header-title{
+        font-size: 2.5vw;
+    }
+
+        
+    .hide{
+        display: none;
+    }      
+}
