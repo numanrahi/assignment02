@@ -60,8 +60,8 @@ ul{
     font-weight: 400;
     font-size: 16px;
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 420px;
+    margin-right: 420px;
 }
 
 
@@ -184,12 +184,16 @@ p{
 .activity{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
 }
 .activity div{
+    padding: 25px 25px;
     border: 1px solid #FF900E;
     border-radius: 8px;
     width: 190px;
     height: 160px;
-    justify-content: space-between;
-    padding: 10px;
+    transition: width 2s , height 2s , transform 2s;
+}
+.activity div:hover{
+    transform: rotate(60deg);
 }
